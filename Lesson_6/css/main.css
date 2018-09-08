@@ -1,0 +1,76 @@
+a {
+	text-decoration: none;
+}
+ul {
+	list-style: none; /*убираем маркеры списка*/
+  	margin: 0; /*убираем верхнее и нижнее поле, равное 1em*/
+  	padding-left: 0; /*убираем левый отступ, равный 40px*/
+}
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.header {
+	background: #000;
+	height: 100px;
+	width: 100%;
+	position: fixed;
+	display: inline-block;
+}
+.header-logo {
+	text-transform: capitalize;
+	font-style: italic;
+	font-size: 20px;
+	font-weight: bold;
+	display: block;
+	padding-left: 100px;
+	padding-top: 20px;
+	float: left;
+	width: 660px;
+}
+.header-logo a {
+	color: #fff;
+	text-transform: capitalize;
+	font-style: italic;
+	font-size: 20px;
+	font-weight: bold;
+	display: block;
+	padding-top: 15px;
+
+}
+.header-menu {
+	float: left;
+}
+.header-menu ul {
+	text-decoration: none;
+	display: flex;
+		
+}
+.header-menu li {
+	display: inline;
+	text-transform: uppercase;
+	font-size: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 43px;
+
+	
+
+}
+.header-menu li a {
+	display: inline;
+	color: #fff;
+	display: block;
+}
+
+.text {
+	padding-top: 100px;
+}
+.box {
+	width: 240px;
+	height: 360px;
+	border: 2px solid #e2e2e2;
+	margin: 0 auto;
+	padding: 20px 30px;
+}

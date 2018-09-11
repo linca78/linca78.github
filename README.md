@@ -16,4 +16,6 @@
 
 [Lesson_15](https://linca78.github.io/Lesson_15/index.html "домашка") Псевдоклассы и псевдоэлементы
 
+[Lesson_16](https://linca78.github.io/Lesson_16/index.html "домашка") Адаптив
+
 

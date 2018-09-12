@@ -18,4 +18,6 @@
 
 [Lesson_16](https://linca78.github.io/Lesson_16/index.html "домашка") Адаптив
 
+[Lesson_16-1](https://linca78.github.io/Lesson_16-1/index.html "домашка") Слайдер
+
 

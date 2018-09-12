@@ -1,0 +1,291 @@
+/* fonts settings */
+
+@font-face {
+    font-family: 'ProximaNova_Reg';
+    src: url('../fonts/ProximaNova-Regular.eot');
+    src: url('../fonts/ProximaNova-Regular.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/ProximaNova-Regular.woff2') format('woff2'),
+        url('../fonts/ProximaNova-Regular.woff') format('woff'),
+        url('../fonts/ProximaNova-Regular.ttf') format('truetype'),
+        url('../fonts/ProximaNova-Regular.svg#ProximaNova-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'ProximaNova_bold';
+    src: url('../fonts/ProximaNovaCond-Bold.eot');
+    src: url('../fonts/ProximaNovaCond-Bold.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/ProximaNovaCond-Bold.woff2') format('woff2'),
+        url('../fonts/ProximaNovaCond-Bold.woff') format('woff'),
+        url('../fonts/ProximaNovaCond-Bold.ttf') format('truetype'),
+        url('../fonts/ProximaNovaCond-Bold.svg#ProximaNovaCond-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+}
+.reg() {
+	font-family: 'ProximaNova_Reg' sans-serif;
+}
+.bold() {
+	font-family: 'ProximaNova_bold'sans-serif;
+}
+
+
+
+
+/* Colors */
+@btn-color: #fcb303;
+@icons-color: #46b814;
+@text: #1a1820;
+@danger: #ff0000;
+@bg-light: #f5f5f5;
+@light: #fff;
+@border-input: #dddddd;
+
+/* basik setting */
+html {
+	font-size: 10px;
+	font-family: 'Proxima Nova Rg' sans-serif;
+}
+body {
+	.reg(); /* шрифт для документа */
+}
+a:hover {
+	text-decoration: none;
+}
+button, input, a {
+	&:focus {
+		outline: none; /* чтоб при состоянии focus не было обводки */
+	}
+}
+.button {
+	
+	padding: 1rem 3rem;
+	border-radius: 8px;
+	font-size: 1.2rem;
+	background-color: @btn-color;
+	color: @light;
+	border: none;
+	transition: all 0.2s;
+	&:hover {
+		cursor: pointer;
+		background-color: darken(@btn-color, 7%); /*сделает кнопку при наведении темнее  на 7%. ligten сделает светлее*/
+	}
+		
+}
+
+/* Typography (заголовки и тд */
+section {
+	padding: 10rem 0;  /*10 rem это 100 px, потому что размер html указан 10 px*/
+}
+
+/* main */
+.main {
+	padding: 3rem 0 5rem;
+	background: #fff url(../img/main-bg.jpg) center center no-repeat; /* фоновая картинка верхнего блока*/
+	background-size: cover;
+	&-content {
+		margin-top: 10rem;
+		/* главный заголовок */
+		h1 {
+			margin-top: 0;
+			margin-bottom: 5rem;
+			.bold();
+			font-size: 4rem;
+			line-height: 1.45;
+		} 	}
+	/* подзаголовок */
+	&-subtitle {
+		font-size: 2.4rem;
+		margin-bottom: 5rem;
+	}
+	/* зеленый ярлык */
+	span {
+		display: inline-block;
+		padding: 3rem 5rem;
+		font-size: 1.8rem;
+		color: @light;
+		background-color: @icons-color;
+		/* цифра 300 грн */
+		strong {
+			font-size: 3rem;
+			.bold();
+		}
+	}
+	/* оплата по факту */
+	&-trigger {
+		font-size: 2.2rem;
+		display: block;
+		margin-top: 3rem;
+		.bold();
+	}
+	/* главная форма */
+	&-form {
+		padding: 4rem 4rem;
+		text-align: center;
+		background-color: @light;
+		/* заголовок формы */
+		&-header {
+			margin-bottom: 4rem;
+			font-size: 1.8rem;
+			strong {
+				font-size: 1.9rem;
+			}
+		}
+		/* поле для ввода */
+		&-input {
+			display: block;
+			margin: 2rem 0;
+			width: 100%;
+			border: 1px solid @border-input;
+			padding: 1.5rem;
+		}
+		/* подписи к полям*/
+		label {
+			position: absolute;
+			left: 40%;
+			transform: translateX(-50%); /* чтоб надпись была по верхнему бордеру */
+			transform: translateY(-50%);
+			padding: 0.5rem;
+			font-size: 1.3rem;
+			background-color: @light;
+		}
+		/* кнопка отправить заявку */
+		&-btn {
+			display: block;
+			height: 5.5rem;
+			width: 100%;
+			font-size: 1.6rem;
+		}
+
+		/* подпись под кнопкой */
+		small {
+			display: block;
+			margin-top: 1.5rem;
+		}
+	}
+}
+.header {
+	height: 7rem;
+}
+.wrap { /* выравнивание по центру кнопки */
+	display: table;
+	width: 100%;
+	height: 7rem;
+	&-block {
+		display: table-cell;
+		vertical-align: middle;
+	}
+}
+.phone-link {
+	display: inline-block; /* чтоб можно было ей (ссылке) добавлять размеры и отступы */
+	.bold();
+	font-size: 1.9rem;
+	font-weight: 700;
+	height: 7rem;
+	line-height: 7rem;
+	color: @text;
+}
+
+/* оформление секции с преимуществами */
+.section-header {
+	margin: 2rem 0 10rem;
+	.bold();
+	font-size: 3.6rem;
+
+}
+.features {
+	&-block {
+		text-align: center;
+		h3 {
+			font-size: 2rem;
+			.bold();
+			margin-bottom: 3rem;
+		}
+		p {
+			display: inline-block;
+			width: 80%;
+			font-size: 1.4rem;
+		}
+	}
+	&-img  {
+		height: 8rem;
+		margin-bottom: 3rem;
+		img {
+			display: block;
+			margin: 0 auto;
+		}
+	}
+}
+.slick-active {
+	outline: none;
+}
+/* настройка стрелок перелистывания */
+.arrow {
+	top: 50%;
+	transform: translateY(-50%);
+	position: absolute;
+	z-index: 99;
+	width: 2rem;
+	height: 2rem;
+	border: none;
+	
+}
+.prev {
+	left: 0;
+	background: url(../img/left.svg) center no-repeat;
+	background-size: 70%;
+}
+.next {
+	right: 0;
+	background: url(../img/right.svg) center no-repeat;
+	background-size: 70%;
+}
+
+
+
+
+
+
+
+
+@media(max-width: 991px) {
+	.main {
+		background-position: top right; /* чтоб картинка лучше выглядела */
+	}
+	.phone-link {
+		text-align: center;
+	}
+	.main-content {
+		margin-top: 3rem;
+	}
+	.main-title {
+		text-align: center;
+		padding-bottom: 3rem;
+	}
+	
+}
+@media(max-width: 767px) {
+	.main {
+		background-position: top left; /* чтоб картинка лучше выглядела */
+	}
+	.header {
+		text-align: center;
+		height: 100%;
+	}
+}
+@media(max-width: 575px) {
+	.header {
+		text-align: center;
+	}
+	.main-title h1 {
+		font-size: 2rem;
+	}
+	.main-subtitle {
+		font-size: 1.6rem;
+
+	}
+	.main-form-btn {
+		font-size: 1rem;
+	}
+}

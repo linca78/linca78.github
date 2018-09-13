@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Модальное окно</title>
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+	<button class="btn">Удалить файл</button>
+
+	<div class="modal">
+		<div class="modal-content">
+			<button class="modal-close">&times</button>
+			<h3 class="modal-header">
+				Вы действительно  хотите удалить файл
+			</h3>
+			<div class="modal-form">
+				<button class="modal-btn">Да</button>
+				<button class="modal-btn">Нет</button>
+			</div>
+		</div>
+		
+	</div>
+
+
+
+
+
+
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			$('.btn').on('click', function(event) {
+				event.preventDefault();
+				$('.modal').fadeIn();
+			});
+			$('.modal-close').on('click', function(event) {
+				event.preventDefault();
+				$('.modal').fadeOut();
+			});
+		});
+	</script>
+
+</body>
+</html>

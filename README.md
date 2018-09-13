@@ -20,4 +20,8 @@
 
 [Lesson_16-1](https://linca78.github.io/Lesson_16-1/index.html "домашка") Слайдер
 
+[Lesson_17-modal](https://linca78.github.io/Lesson_17-modal/index.html "домашка") Модальное окно
+
+
+
 

@@ -22,6 +22,8 @@
 
 [Lesson_17-modal](https://linca78.github.io/Lesson_17-modal/index.html "домашка") Модальное окно
 
+[Lesson_18-1](https://linca78.github.io/Lesson_18-1/index.html "домашка") Tabs
+
 
 
 

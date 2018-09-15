@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tabs</title>
+
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <div class="container">
+    	<div class="section">
+    		<div class="col-lg-8 mx-auto">
+    			
+    		<!-- Nav tabs -->
+				<ul class="nav nav-tabs" role="tablist">
+ 			 		<li class="nav-item">
+    					<a class="nav-link section-link active" data-toggle="tab" href="#home" role="tab">Вход</a>
+  					</li>
+  					<li class="nav-item">
+   			 			<a class="nav-link section-link" data-toggle="tab" href="#profile" role="tab">Регистрация</a>
+  					</li>
+  				</ul>
+
+<!-- Tab panes -->
+				<div class="section-form">
+				<div class="tab-content">
+  				<div class="tab-pane active" id="home" role="tabpanel">
+  					<div class="col-lg-10">
+  <!-- форма внутри вход -->	
+  					<form>
+ 						 <div class="form-group pt-5">
+    					    <input type="email" class="form-control mt-5 form-control-lg section-form-inp text-white" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Ваше имя">
+    
+  						</div>
+  						<div class="form-group">
+    					    <input type="password" class="form-control mt-5 form-control-lg section-form-inp text-white" id="exampleInputPassword1" placeholder="Пароль">
+    						<small id="emailHelp" class="form-text mt-3 section-form-small">Забыли пароль?</small>
+  						</div>
+ 						 <div class="form-group form-check mb-5">
+    						<input type="checkbox" class="form-check-input mt-4" id="exampleCheck1">
+    						<label class="form-check-label section-form-check mt-4" for="exampleCheck1">Напомнить мне</label>
+  						</div>
+ 						 <button type="submit" class="btn section-form-btn">Войти</button>
+					</form>
+					</div>
+  				</div>
+  				<div class="tab-pane" id="profile" role="tabpanel">...</div>
+  					</div>
+				</div>
+    		</div>
+		</div>
+	</div>
+
+
+
+
+
+
+
+
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
+

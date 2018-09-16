@@ -24,6 +24,8 @@
 
 [Lesson_18-1](https://linca78.github.io/Lesson_18-1/index.html "домашка") Tabs
 
+[Lesson_18-2](https://linca78.github.io/Lesson_18-2/index.html "домашка") Аккардион
+
 
 
 

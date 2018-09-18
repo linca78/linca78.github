@@ -26,7 +26,9 @@
 
 [Lesson_18-2](https://linca78.github.io/Lesson_18-2/index.html "домашка") Аккардион
 
-[Lesson_19](https://linca78.github.io/Lesson_19/index.html "домашка") 
+[Lesson_19](https://linca78.github.io/Lesson_19/index.html "домашка")
+
+[Lesson_20](https://linca78.github.io/Lesson_20/index.html "домашка") 
 
 
 

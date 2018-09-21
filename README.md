@@ -36,7 +36,7 @@
 
 [Lesson_22](https://linca78.github.io/Lesson_22/index.html "домашка")
 
-[Lesson_22-1](https://linca78.github.io/Lesson_22-1/index.html "домашка")
+[Lesson_22-2](https://linca78.github.io/Lesson_22-2/index.html "домашка")
 
 
 

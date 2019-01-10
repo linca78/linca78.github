@@ -2,7 +2,7 @@
 
 Мои домашние работы
 
-[Lesson_3](https://linca78.github.io/Lesson_3/index.html "домашка")
+[Lesson_3](https://linca78.github/Lesson_3/index.html "домашка")
 
 [Lesson_6](https://linca78.github.io/Lesson_6/index.html "домашка")
 
